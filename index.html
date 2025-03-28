@@ -3,214 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A powerful data analytics platform with interactive Tableau dashboards, providing insights into sales trends for information security tools. Built by Lior Rimon.">
     <title>Data Analytics Platform</title>
-    <style>
-        /* Modern, Clean CSS Design */
-        body {
-            font-family: 'Roboto', 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f6f8;
-            color: #2d3748;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #1a202c;
-            padding: 2rem;
-            text-align: center;
-            color: white;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2.2em;
-            font-weight: 500;
-        }
-
-        nav {
-            background: #fff;
-            padding: 1rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-
-        nav a {
-            color: #4a5568;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #2b6cb0;
-        }
-
-        .container {
-            max-width: 1280px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-        }
-
-        .section {
-            background: #fff;
-            padding: 2rem;
-            border-radius: 6px;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.03);
-            transition: transform 0.2s ease;
-        }
-
-        .section:hover {
-            transform: translateY(-2px);
-        }
-
-        h2 {
-            color: #1a202c;
-            margin-top: 0;
-            font-size: 1.6em;
-            font-weight: 500;
-        }
-
-        .tableau-container {
-            width: 100%;
-            height: 700px; /* Fixed height, adjustable */
-            border: 1px solid #e2e8f0;
-            border-radius: 4px;
-            overflow: hidden;
-            margin-top: 1rem;
-            background: #fff;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .stat-card {
-            background: #f7fafc;
-            padding: 1.5rem;
-            border-radius: 4px;
-            text-align: center;
-            border: 1px solid #e2e8f0;
-        }
-
-        .stat-card h3 {
-            margin: 0 0 0.5rem;
-            color: #2b6cb0;
-            font-size: 1.1em;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1.5rem;
-            color: #718096;
-            background: #fff;
-            border-top: 1px solid #e2e8f0;
-        }
-
-        a {
-            color: #2b6cb0;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Subtle Animation for Load */
-        .section {
-            opacity: 0;
-            animation: fadeInSection 0.5s ease forwards;
-        }
-
-        @keyframes fadeInSection {
-            to { opacity: 1; }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Data Analytics Platform</h1>
-        <p>Actionable Insights Through Data Visualization</p>
+        <h1>Data Analytics Platform 📊</h1>
+        <p>Actionable Insights Through Data Visualization ✨</p>
     </header>
 
     <nav>
-        <a href="#overview">Overview</a>
-        <a href="#tableau">Dashboard</a>
-        <a href="#insights">Metrics</a>
-        <a href="#contact">Contact</a>
+        <a href="overview.html">Overview</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="insights.html">Insights</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <div class="container">
-        <div class="section" id="overview">
-            <h2>Overview</h2>
-            <p>Our platform provides advanced data analytics to empower your decision-making process. Leverage real-time insights and comprehensive visualizations to stay ahead in your industry.</p>
-        </div>
-
-        <div class="section" id="tableau">
-            <h2>Interactive Dashboard</h2>
-            <p>Explore our Tableau-powered dashboard below, showcasing sales data for information security tools.</p>
-            <div class="tableau-container">
-                <tableau-viz id="tableauViz"
-                    src="https://public.tableau.com/views/Book1_17425549818900/_"
-                    width="100%"
-                    height="700"
-                    hide-tabs
-                    toolbar="hidden">
-                </tableau-viz>
-            </div>
-        </div>
-
-        <div class="section" id="insights">
-            <h2>Key Metrics</h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <h3>Total Users</h3>
-                    <p>1.5M+</p>
-                </div>
-                <div class="stat-card">
-                    <h3>Revenue</h3>
-                    <p>$25M+</p>
-                </div>
-                <div class="stat-card">
-                    <h3>Annual Growth</h3>
-                    <p>35%</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="section" id="contact">
-            <h2>Contact Us</h2>
-            <p>For more information, reach out to us at: <a href="mailto:info@dataanalytics.com">info@dataanalytics.com</a></p>
+        <div class="section">
+            <h2>Welcome to Our Platform 🚀</h2>
+            <p>Explore our data analytics platform to gain actionable insights through interactive visualizations. Navigate through the tabs above to learn more! 📈</p>
         </div>
     </div>
 
     <footer>
-        <p>© 2025 Data Analytics Platform. All rights reserved.</p>
+        <p>© 2025 Data Analytics Platform. All rights reserved. | This website built by Lior Rimon 💻✨</p>
     </footer>
 
-    <!-- Tableau Embedding API v3 Script -->
-    <script src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js" type="module"></script>
-
-    <script>
-        // JavaScript for Functionality
-        document.addEventListener('DOMContentLoaded', () => {
-            // Smooth scrolling
-            document.querySelectorAll('nav a').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
